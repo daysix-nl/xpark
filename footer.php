@@ -214,7 +214,7 @@
         <div class="px-[20px] md:px-[25px] lg:px-[70px]">
             <h2 class="text-25 leading-35 md:text-30 md:leading-40 lg:text-26 lg:leading-36 xl:text-30 xl:leading-40 font-bold text-[#202624]">Solliciteer nu<span class="text-[#FF6441]">.</span></h2>
             <p class="text-15 leading-28 md:text-15 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px] mb-[25px]">Stuur je motivatiebrief en cv naar hr@xpark.nl of vul ons sollicitatieformulier in.</p>
-            <?php echo do_shortcode('[gravityform id="3" title="false"]'); ?>
+            <?php echo do_shortcode('[gravityform id="4" title="false"]'); ?>
         </div>
     </div>
 </div>
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
     buttons.forEach(function (button) {
         button.addEventListener('click', function () {
             var vacatureId = button.getAttribute('data-vacature-id');
-            var formField = document.querySelector('#input_3_6'); // Het ID van het Gravity Forms veld (vervang dit met het juiste ID)
+            var formField = document.querySelector('#input_4_6'); // Het ID van het Gravity Forms veld (vervang dit met het juiste ID)
             if (formField) {
                 formField.value = vacatureId;
             }

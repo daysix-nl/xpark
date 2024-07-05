@@ -16,7 +16,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
          <h2 class="text-25 leading-35 md:text-30 md:leading-40 lg:text-26 lg:leading-36 xl:text-30 xl:leading-40 font-bold text-[#202624]"><?php echo get_field('titel');?></h2>
          <p class="text-15 leading-25 md:text-15 md:leading-25 lg:text-13 lg:leading-22 xl:text-15 xl:leading-25 text-[#000000] font-normal mt-[15px] md:w-[506px] lg:w-[428px] xl:w-[550px]"><?php echo get_field('tekst');?></p>
          <div class="xparkform-basis mt-[20px] lg:mt-[30px]">
-            <?php echo do_shortcode('[gravityform id="2" title="false"]'); ?>
+            <?php echo do_shortcode('[gravityform id="3" title="false"]'); ?>
          </div>
       </div>
       <div class="w-full lg:w-[524px] xl:w-[568px] md:grid md:grid-cols-2 lg:grid-cols-1 mt-[40px] md:mt-[70px] lg:mt-[unset]">
