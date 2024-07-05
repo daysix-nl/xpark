@@ -1,0 +1,27 @@
+{
+  "name": "acf-nieuws-overzicht",
+  "title": "Nieuws overzicht",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "excerpt-view",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-nieuws-overzicht.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/preview-images/leeg.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

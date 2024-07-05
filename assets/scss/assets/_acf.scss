@@ -1,0 +1,15 @@
+.block-editor .element-fade-in {
+    .fade-item {
+        opacity: 1 !important;
+        transform: translateY(0px) !important;
+    }
+
+    .grow-item {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+    }
+}
+
+.block-editor .swiper-slide {
+    margin-right: 15px !important;
+}

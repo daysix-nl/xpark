@@ -1,0 +1,101 @@
+body.scroll-nonactive {
+    header {
+        background: transparent !important;
+        border-bottom: 1px solid transparent !important;
+        transition-duration: 0.2s;
+    }
+
+    svg #Path_585 {
+        fill: #fff !important;
+        transition-duration: 0.2s;
+
+    }
+
+    #hb-overlay svg #Path_585 {
+        fill: #FF9655 !important;
+        transition-duration: 0.2s;
+
+    }
+
+    svg#hamburger line {
+        stroke: #fff !important;
+        transition-duration: 0.2s;
+
+    }
+
+}
+
+body.scroll-active {
+    header {
+        background: #fff !important;
+        border-bottom: 1px solid #ddd !important;
+        transition-duration: 0.2s;
+    }
+
+    svg #Path_585 {
+        fill: #FF9655 !important;
+        transition-duration: 0.2s;
+
+    }
+
+    svg#hamburger line {
+        stroke: #202624 !important;
+        transition-duration: 0.2s;
+
+    }
+
+}
+
+body.scroll-always-active {
+    header {
+        background: #fff !important;
+        border-bottom: 1px solid #ddd !important;
+        transition-duration: 0.2s;
+    }
+
+    svg #Path_585 {
+        fill: #FF9655 !important;
+        transition-duration: 0.2s;
+
+    }
+
+    svg#hamburger line {
+        stroke: #202624 !important;
+        transition-duration: 0.2s;
+
+    }
+
+}
+
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-menu {
+    width: 275px;
+    margin-left: -20px;
+    z-index: 1000;
+}
+
+.hover-dropdown:hover {
+    .dropdown-menu {
+        display: block;
+    }
+}
+
+.hamburger-nonactive {
+    #hb-overlay {
+        left: -100%;
+        transition: all .3s ease;
+    }
+}
+
+.hamburger-active {
+    #hb-overlay {
+        left: 0px;
+        transition: all .3s ease;
+    }
+
+    overflow-y: hidden;
+}

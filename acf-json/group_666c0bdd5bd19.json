@@ -1,0 +1,131 @@
+{
+    "key": "group_666c0bdd5bd19",
+    "title": "Blok instellingen",
+    "fields": [
+        {
+            "key": "field_666c0c513384b",
+            "label": "Blok instellingen",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_666c0bdde9e4b",
+            "label": "Achtergrond",
+            "name": "achtergrond",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg-white": "Wit",
+                "bg-groen": "Groen",
+                "bg-beige": "Beige",
+                "bg-oranje": "Oranje"
+            },
+            "default_value": "bg-white",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_666c0cca881be",
+            "label": "Witruimte bovenkant",
+            "name": "padding_top",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "padding-top-xs": "Extra small",
+                "padding-top-s": "Small",
+                "padding-top-m": "Medium",
+                "padding-top-l": "Large",
+                "padding-top-xl": "Extra large",
+                "pt-0": "None"
+            },
+            "default_value": "pt-0",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_666c0ce5881bf",
+            "label": "Witruimte onderkant",
+            "name": "padding_bottom",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "padding-bottom-xs": "Extra small",
+                "padding-bottom-s": "Small",
+                "padding-bottom-m": "Medium",
+                "padding-bottom-l": "Large",
+                "padding-bottom-xl": "Extra large",
+                "pb-0": "None"
+            },
+            "default_value": "pb-0",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 999,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1718359361
+}

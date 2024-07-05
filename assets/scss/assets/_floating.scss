@@ -1,0 +1,50 @@
+.element-fade-in {
+    .fade-item {
+        opacity: 0;
+        transform: translateY(100px);
+        transition-property: opacity, transform; // Specificeer welke eigenschappen getransitioned moeten worden
+        transition-duration: 1.3s, 0.6s; // Stel verschillende duur voor opacity en transform in
+        // Stel een basisvertraging in voor alle items
+        transition-delay: 0s;
+    }
+
+    &.show {
+        .fade-item {
+            &:first-of-type {
+                opacity: 1;
+                transform: translateY(0px);
+                transition-delay: 0s;
+                transition-duration: 1s, 0.6s; // Gebruik dezelfde duurverdeling hier
+            }
+
+            @for $i from 2 through 100 {
+                &:nth-of-type(#{$i}) {
+                    opacity: 1;
+                    transform: translateY(0px);
+                    transition-delay: 0.1s * $i;
+                    transition-duration: 1.3s, 0.6s; // Gebruik dezelfde duurverdeling hier
+                }
+            }
+        }
+    }
+}
+
+.element-fade-in {
+    .grow-item {
+        opacity: 0;
+        transform: scale(0); // Schaalt naar 100%
+        transition-duration: 0.6s;
+        // Stel een basisvertraging in voor alle items
+        transition-delay: 0s;
+    }
+
+    &.show {
+        .grow-item {
+            opacity: 1;
+            transform: scale(1); // Schaalt naar 100%
+            transition-delay: 0.2s;
+            transition: 0.6s cubic-bezier(0.3, 0.58, 0.26, 0.98);
+
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "acf-subtitel-1",
+  "title": "Subtitel 1",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "editor-bold",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-subtitel-1.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/preview-images/leeg.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

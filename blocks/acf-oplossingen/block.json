@@ -1,0 +1,27 @@
+{
+  "name": "acf-oplossingen",
+  "title": "Oplossingen",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "slides",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-oplossingen.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/local/leeg.png",
+        "is_preview": true
+      }
+    }
+  }
+}

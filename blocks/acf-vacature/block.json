@@ -1,0 +1,27 @@
+{
+  "name": "acf-vacature",
+  "title": "Vacature",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "businessperson",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-vacature.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/preview-images/leeg.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

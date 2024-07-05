@@ -1,0 +1,27 @@
+{
+  "name": "acf-cards-2",
+  "title": "Cards 2",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "columns",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-cards-2.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/preview-images/leeg.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}

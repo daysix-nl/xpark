@@ -1,0 +1,27 @@
+{
+  "name": "acf-header-4",
+  "title": "Header case item",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "align-full-width",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-header-4.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/xpark/img/preview-images/leeg.jpeg",
+        "is_preview": true
+      }
+    }
+  }
+}
