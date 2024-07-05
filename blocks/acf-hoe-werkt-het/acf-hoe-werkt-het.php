@@ -9,7 +9,7 @@ else: ?>
    <div class="container hidden md:block">
       <div class="w-fit md:h-[379.63px] lg:h-[526.5px] xl:h-[554.21px] mx-auto overflow-hidden">
          <div class="md:scale-[0.685] lg:scale-95 xl:scale-100 origin-top-left">
-            <?php include '/Users/daysix/Local Sites/xpark/app/public/wp-content/themes/xpark/img/icon/hoe-werkt-het.php'; ?>
+            <?php include '/wp-content/themes/xpark/img/icon/hoe-werkt-het.php'; ?>
          </div>
        </div>
    </div>

@@ -33,7 +33,7 @@ $link3_target = isset($link3['target']) ? esc_attr($link3['target']) : '';
                 <div class="flex flex-col lg:flex-row justify-between">
                     <!-- TRIANGLE -->
                     <div id="service" class="w-[336px] md:w-[469px] mx-auto lg:mx-[unset] order-2 lg:order-1 h-[287px] md:h-[unset] relative">
-                        <?php include '/Users/daysix/Local Sites/xpark/app/public/wp-content/themes/xpark/img/icon/triangle.svg'; ?>
+                        <?php include '/wp-content/themes/xpark/img/icon/triangle.svg'; ?>
                         
                     </div>
                     <!-- CONTENT -->
