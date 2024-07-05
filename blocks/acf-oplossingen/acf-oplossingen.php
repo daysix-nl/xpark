@@ -33,7 +33,8 @@ $link3_target = isset($link3['target']) ? esc_attr($link3['target']) : '';
                 <div class="flex flex-col lg:flex-row justify-between">
                     <!-- TRIANGLE -->
                     <div id="service" class="w-[336px] md:w-[469px] mx-auto lg:mx-[unset] order-2 lg:order-1 h-[287px] md:h-[unset] relative">
-                        <?php include 'https://xpark.digitalfc.site/wp-content/themes/xpark/img/icon/triangle.svg'; ?>
+                       <?php include get_template_directory() . '/img/icon/triangle.svg'; ?>
+
                         
                     </div>
                     <!-- CONTENT -->
@@ -57,7 +58,8 @@ $link3_target = isset($link3['target']) ? esc_attr($link3['target']) : '';
                 <div class="flex flex-col lg:flex-row justify-between">
                     <!-- TRIANGLE -->
                     <div id="software" class="w-[336px] md:w-[469px] mx-auto lg:mx-[unset] order-2 lg:order-1 h-[287px] md:h-[unset]">
-                        <?php include '/Users/daysix/Local Sites/xpark/app/public/wp-content/themes/xpark/img/icon/triangle.svg'; ?>
+                        <?php include get_template_directory() . '/img/icon/triangle.svg'; ?>
+
                     </div>
                     <!-- CONTENT -->
                     <div class="lg:w-[557px] xl:w-[691px] order-1 lg:order-2 mt-[35px] md:mt-[30px] lg:mt-[58px] xl:mt-[60px] bg-white">
@@ -80,7 +82,7 @@ $link3_target = isset($link3['target']) ? esc_attr($link3['target']) : '';
                 <div class="flex flex-col lg:flex-row justify-between">
                     <!-- TRIANGLE -->
                     <div id="hardware" class="w-[336px] md:w-[469px] mx-auto lg:mx-[unset] order-2 lg:order-1 h-[287px] md:h-[unset]">
-                        <?php include '/Users/daysix/Local Sites/xpark/app/public/wp-content/themes/xpark/img/icon/triangle.svg'; ?>
+                        <?php include get_template_directory() . '/img/icon/triangle.svg'; ?>
                     </div>
                     <!-- CONTENT -->
                     <div class="lg:w-[557px] xl:w-[691px] order-1 lg:order-2 mt-[35px] md:mt-[30px] lg:mt-[58px] xl:mt-[60px] bg-white">
