@@ -107,7 +107,7 @@
 
 
 <!-- HAMBURGER OVERLAY -->
- <div id="hb-overlay" class="absolute top-0 w-full h-[100dvh] z-[9999] bg-white">
+ <div id="hb-overlay" class="fixed top-0 bottom-0 w-full h-[100dvh] z-[9999] bg-white">
     <div class="h-[75px] md:h-[96px] w-full flex items-center justify-between border-b-[1px] border-[#ddd] px-[20px]">
         <div class="w-[40px]"></div>
         <div class="">

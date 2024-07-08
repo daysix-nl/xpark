@@ -218,6 +218,8 @@
         </div>
     </div>
 </div>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var buttons = document.querySelectorAll('.open-form');
@@ -245,6 +247,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+
+
+
 
 <?php wp_footer(); ?>
 </body>

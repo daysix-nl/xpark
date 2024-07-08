@@ -11,7 +11,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 <!-- CALL TO ACTION -->
  <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> lg:pb-[80px] xl:pb-[100px]">
-   <div class="w-full lg:w-[1033px] xl:w-[1033px] mx-auto bg-[#FF6441] lg:rounded-[7px]">
+   <div class="w-full lg:w-[1033px] xl:w-[1033px] mx-auto <?php echo get_field('blok_achtergrond');?> lg:rounded-[7px]">
       <div class="md:flex items-center justify-between pt-[75px] md:pt-[45px] lg:pt-[75px] xl:pt-[70px] pb-[75px] md:pb-[55px] lg:pb-[55px] xl:pb-[60px] relative overflow-hidden">
          <div class="z-[2] ml-[calc(50vw-180px)] md:ml-[calc(50vw-354px)] lg:ml-[100px] xl:ml-[112px] md:w-[325px] lg:w-[415px] xl:w-[451px]">
             <h2 class="text-36 leading-48 md:text-33 md:leading-44 lg:text-42 lg:leading-60 xl:text-45 xl:leading-60 font-bold text-[#202624]"><?php echo get_field('titel');?></h2>

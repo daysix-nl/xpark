@@ -25,7 +25,7 @@ else: ?>
                      <div class="w-[49px] h-[47px] md:w-[54px] md:h-[52px] mr-[15px] overflow-hidden">
                         <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center">
                      </div>
-                     <div class="">
+                     <div class="w-[202px] md:w-[225px] lg:w-[208px]">
                         <h3 class="text-12 leading-17 md:text-14 md:leading-20 lg:text-14 lg:leading-20 xl:text-14 xl:leading-20 font-bold"><?php echo get_sub_field('naam');?></h3>
                         <p class="text-10 leading-17 md:text-12 md:leading-20 lg:text-12 lg:leading-20 xl:text-12 xl:leading-20 text-[#575757]"><?php echo get_sub_field('functie');?></p>
                      </div>

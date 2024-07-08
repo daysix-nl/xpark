@@ -3,6 +3,33 @@
     "title": "Call to action",
     "fields": [
         {
+            "key": "field_668bc693277c8",
+            "label": "Achtergrond",
+            "name": "blok_achtergrond",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "blok-oranje": "Oranje",
+                "blok-groen": "Groen",
+                "blok-beige": "Beige"
+            },
+            "default_value": "blok-oranje",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_666bf9abe7dd8",
             "label": "Titel",
             "name": "titel",
@@ -190,5 +217,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1718352746
+    "modified": 1720436636
 }

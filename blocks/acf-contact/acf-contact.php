@@ -69,7 +69,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                </a>
             </div>
          </div>
-         <div class="w-full h-[281px] md:h-[236px] lg:h-full rounded-[8px] overflow-hidden">
+         <div class="w-full h-[281px] md:h-[236px] lg:h-[490px] xl:h-[505px] rounded-[8px] overflow-hidden">
             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center">
          </div>
       </div>
