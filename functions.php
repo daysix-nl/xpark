@@ -516,7 +516,7 @@ function add_custom_admin_bar_styles() {
             // #menu-posts { display: none !important; }
             #menu-comments { display: none !important; }
             #wc_admin_dashboard_setup { display: none !important; }
-            // #rank_math_dashboard_widget { display: none !important; }
+            #rank_math_dashboard_widget { display: none !important; }
             #toplevel_page_getwooplugins { display: none !important; }
             #wp-admin-bar-weglot { display: none !important; }
             #toplevel_page_weglot-settings { display: none !important; }
