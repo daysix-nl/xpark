@@ -443,7 +443,7 @@ function customize_dashboard_menu() {
             'edit.php?post_type=acf-field-group',
             'edit-comments.php',
             'themes.php',
-            'plugins.php',
+            // 'plugins.php',
             // 'users.php',
             'options-general.php',
             'tools.php',
@@ -516,7 +516,7 @@ function add_custom_admin_bar_styles() {
             // #menu-posts { display: none !important; }
             #menu-comments { display: none !important; }
             #wc_admin_dashboard_setup { display: none !important; }
-            #rank_math_dashboard_widget { display: none !important; }
+            // #rank_math_dashboard_widget { display: none !important; }
             #toplevel_page_getwooplugins { display: none !important; }
             #wp-admin-bar-weglot { display: none !important; }
             #toplevel_page_weglot-settings { display: none !important; }
@@ -583,18 +583,18 @@ add_action('init', 'redirect_backend_to_wp_login');
 |
 */
 
-function custom_wp_mail_from($original_email_address) {
-    // Vervang 'jouw@emailadres.com' door het gewenste specifieke e-mailadres
-    return 'noreply@bedrijfsnaam.nl';
-}
+// function custom_wp_mail_from($original_email_address) {
+//     // Vervang 'jouw@emailadres.com' door het gewenste specifieke e-mailadres
+//     return 'noreply@bedrijfsnaam.nl';
+// }
 
-function custom_wp_mail_from_name($original_email_from) {
-    // Vervang 'Jouw Naam' door de gewenste afzender naam
-    return 'Bedrijfsnaam';
-}
+// function custom_wp_mail_from_name($original_email_from) {
+//     // Vervang 'Jouw Naam' door de gewenste afzender naam
+//     return 'Bedrijfsnaam';
+// }
 
-add_filter('wp_mail_from', 'custom_wp_mail_from');
-add_filter('wp_mail_from_name', 'custom_wp_mail_from_name');
+// add_filter('wp_mail_from', 'custom_wp_mail_from');
+// add_filter('wp_mail_from_name', 'custom_wp_mail_from_name');
 
 
 /*
