@@ -104,43 +104,71 @@
                 </svg>
             </div>
             <div class="w-[50%] md:w-[33.33%] lg:w-[185px] order-1 lg:order-2">
-                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17">Titel kopje</h3>
+                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17"><?php echo get_field('titel_kolom_1', 'option');?></h3>
                 <div class="grid mt-[15px]">
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
+                    <?php
+                    if( have_rows('menu_kolom_1', 'option') ):
+                        while( have_rows('menu_kolom_1', 'option') ) : the_row(); ?>
+                        <?php
+                        $link = get_sub_field('link', 'option');
+                        $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                        $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                        $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                        ?>
+                        <a href="<?php echo $link_url; ?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                        <?php
+                        endwhile;
+                    else :
+                    endif; ?>
                 </div>
             </div>
             <div class="w-[50%] md:w-[33.33%] lg:w-[185px] order-2 lg:order-3 ">
-                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17">Titel kopje</h3>
+                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17"><?php echo get_field('titel_kolom_2', 'option');?></h3>
                 <div class="grid mt-[15px]">
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
+                     <?php
+                    if( have_rows('menu_kolom_2', 'option') ):
+                        while( have_rows('menu_kolom_2', 'option') ) : the_row(); ?>
+                        <?php
+                        $link = get_sub_field('link', 'option');
+                        $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                        $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                        $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                        ?>
+                        <a href="<?php echo $link_url; ?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                        <?php
+                        endwhile;
+                    else :
+                    endif; ?>
                 </div>
             </div>
             <div class="w-[50%] md:w-[33.33%] lg:w-[185px] order-3 lg:order-4 mt-[50px] md:mt-[unset]">
-                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17">Titel kopje</h3>
+                <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17"><?php echo get_field('titel_kolom_3', 'option');?></h3>
                 <div class="grid mt-[15px]">
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
-                    <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">Link titel</a>
+                     <?php
+                    if( have_rows('menu_kolom_3', 'option') ):
+                        while( have_rows('menu_kolom_3', 'option') ) : the_row(); ?>
+                        <?php
+                        $link = get_sub_field('link', 'option');
+                        $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                        $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                        $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                        ?>
+                        <a href="<?php echo $link_url; ?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                        <?php
+                        endwhile;
+                    else :
+                    endif; ?>
                 </div>
             </div>
             <div class="w-[50%] md:w-[33.33%] lg:hidden order-4 md:order-5 mt-[50px]">
                 <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17 mb-[15px] md:mb-[8px]">Contact</h3>
-                <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">+31 (0)20 – 70 288 58</a>
-                <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">info@xpark.nl</a>
+                <a href="tel:<?php echo get_field('telefoonnummer', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('telefoonnummer', 'option');?></a>
+                <a href="mailto:<?php echo get_field('e-mailadres', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('e-mailadres', 'option');?></a>
             </div>
             <div class="w-[100%] md:w-[33.33%] lg:w-[181px] lg:mr-[45px] h-auto grid items-between order-6 md:order-6 lg:order-5 mt-[25px] md:mt-[50px] lg:mt-[unset]">
                 <div class="w-[181px] grid grid-cols-4 mb-[20px]">
-                    <a href="" class="w-[36px]">
+                    <?php if (get_field('facebook', 'option')): ?>  
+                    <a href="<?php echo get_field('facebook', 'option');?>" class="w-[36px]" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35">
                             <g id="Group_1911" data-name="Group 1911" transform="translate(-1103 -925.939)">
                                 <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(1103 925.939)"/>
@@ -148,7 +176,9 @@
                             </g>
                         </svg>
                     </a>
-                    <a href="" class="w-[36px]">
+                    <?php endif; ?>
+                    <?php if (get_field('linkedin', 'option')): ?>  
+                    <a href="<?php echo get_field('linkedin', 'option');?>" class="w-[36px]" target="_blank">
                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35">
                             <g id="Group_1912" data-name="Group 1912" transform="translate(-1152 -925.939)">
                                 <ellipse id="Ellipse_28" data-name="Ellipse 28" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(1152 925.939)"/>
@@ -160,7 +190,9 @@
                             </g>
                         </svg>
                     </a>
-                    <a href="" class="w-[36px]">
+                    <?php endif; ?>
+                    <?php if (get_field('instagram', 'option')): ?>  
+                    <a href="<?php echo get_field('instagram', 'option');?>" class="w-[36px]" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
                             <g id="Group_1913" data-name="Group 1913" transform="translate(-1200 -925.939)">
                                 <circle id="Ellipse_29" data-name="Ellipse 29" cx="17.5" cy="17.5" r="17.5" transform="translate(1200 925.939)"/>
@@ -172,7 +204,9 @@
                             </g>
                         </svg>
                     </a>
-                    <a href="" class="w-[36px]">
+                    <?php endif; ?>
+                    <?php if (get_field('tiktok', 'option')): ?>  
+                    <a href="<?php echo get_field('tiktok', 'option');?>" class="w-[36px]" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
                             <g id="Group_1914" data-name="Group 1914" transform="translate(-1249 -925.939)">
                                 <circle id="Ellipse_30" data-name="Ellipse 30" cx="17.5" cy="17.5" r="17.5" transform="translate(1249 925.939)"/>
@@ -182,12 +216,13 @@
                             </g>
                         </svg>
                     </a>
+                    <?php endif; ?>
                 </div>
                 <div class="lg:flex items-end hidden">
                     <div class="">
                         <h3 class="text-white font-bold text-17 leading-32 lg:text-14 lg:leading-30 xl:text-17 xl:leading-32">Contact</h3>
-                        <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">+31 (0)20 – 70 288 58</a>
-                        <a href="" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit">info@xpark.nl</a>
+                         <a href="tel:<?php echo get_field('telefoonnummer', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('telefoonnummer', 'option');?></a>
+                        <a href="mailto:<?php echo get_field('e-mailadres', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('e-mailadres', 'option');?></a>
                     </div>
                 </div>
             </div>
