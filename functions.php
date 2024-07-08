@@ -456,7 +456,7 @@ function customize_dashboard_menu() {
             'toplevel_page_wppusher', 
             'toplevel_page_ai1wm_export',
             'menu-top toplevel_page_mlang',
-            'toplevel_page_rank-math',
+            // 'toplevel_page_rank-math',
             'toplevel_page_zci_settings',
             'menu-top toplevel_page_edit?post_type=filter-set',
             // Voeg hier andere classes toe van de items die je wilt verbergen op basis van de class.
