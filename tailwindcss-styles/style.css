@@ -2369,10 +2369,6 @@ video {
     height: 486px;
   }
 
-  .lg\:h-\[490px\] {
-    height: 490px;
-  }
-
   .lg\:h-\[526\.5px\] {
     height: 526.5px;
   }
@@ -3060,6 +3056,10 @@ video {
     height: 402px;
   }
 
+  .xl\:h-\[434px\] {
+    height: 434px;
+  }
+
   .xl\:h-\[441px\] {
     height: 441px;
   }
@@ -3082,10 +3082,6 @@ video {
 
   .xl\:h-\[489px\] {
     height: 489px;
-  }
-
-  .xl\:h-\[505px\] {
-    height: 505px;
   }
 
   .xl\:h-\[554\.21px\] {
