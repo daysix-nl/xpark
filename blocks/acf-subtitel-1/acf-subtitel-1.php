@@ -13,7 +13,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container">
       <div class="lg:flex items-start justify-between element-fade-in">
-         <div class="w-full lg:w-[719px] xl:w-[809px]">
+         <div class="w-full lg:w-[860px] xl:w-[920px]">
             <h2 class="text-28 leading-35 md:text-40 md:leading-50 lg:text-36 lg:leading-46 xl:text-40 xl:leading-50 font-semibold text-[#202624]"><?php echo get_field('titel');?></h2>
             <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[25px]"><?php echo get_field('tekst');?></p>
          </div>

@@ -12,7 +12,7 @@ body.scroll-nonactive {
     }
 
     #hb-overlay svg #Path_585 {
-        fill: #FF9655 !important;
+        fill: #ff6441 !important;
         transition-duration: 0.2s;
 
     }
@@ -33,7 +33,7 @@ body.scroll-active {
     }
 
     svg #Path_585 {
-        fill: #FF9655 !important;
+        fill: #ff6441 !important;
         transition-duration: 0.2s;
 
     }
@@ -54,7 +54,7 @@ body.scroll-always-active {
     }
 
     svg #Path_585 {
-        fill: #FF9655 !important;
+        fill: #ff6441 !important;
         transition-duration: 0.2s;
 
     }
@@ -98,4 +98,23 @@ body.scroll-always-active {
     }
 
     overflow-y: hidden;
+}
+
+
+a.menu-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ff6441;
+    transition: width .3s;
+}
+
+a.menu-item:hover::after {
+    width: 100%;
+}
+
+a.menu-item.active::after {
+    width: 100%;
+    transition: width 0s;
 }

@@ -283,7 +283,23 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Haal de huidige URL op
+    var currentUrl = window.location.href;
 
+    // Zoek alle menu-items
+    var menuItems = document.querySelectorAll('.menu-item');
+
+    // Loop door alle menu-items
+    menuItems.forEach(function(item) {
+        if (item.href === currentUrl) {
+            // Voeg de class 'active' toe als de URL's overeenkomen
+            item.classList.add('active');
+        }
+    });
+});
+</script>
 
 
 <?php wp_footer(); ?>

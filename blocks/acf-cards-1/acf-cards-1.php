@@ -18,7 +18,7 @@ else: ?>
                $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                ?>
                   <div class="swiper-slide fade-item w-[313px] md:w-[345px] lg:w-[362px] xl:w-[386px] bg-[#EDF0E1] rounded-[8px] h-auto flex justify-center py-[40px] md:py-[50px] lg:py-[55px] xl:py-[50px]">
-                     <div class="w-[257px] md:w-[279px]">
+                     <div class="w-[275px] md:w-[275px] lg:w-[300px] xl:w-[330px]">
                         <h3 class="text-20 leading-20 md:text-22 md:leading-22 xl:text-24 xl:leading-24 tracking-[0.01em] font-bold text-[#000000]"><?php echo get_sub_field('titel');?></h3>
                         <div class="grid mt-[30px] gap-[8px] xl:gap-[10px]">
                            <?php

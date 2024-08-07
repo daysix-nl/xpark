@@ -17,7 +17,7 @@ try {
 
 
 try {
-    let labels = ["Service", "Software", "Hardware"];
+    let labels = ["Software", "Hardware", "Service"];
     var swiper = new Swiper(".mySwiper", {
         spaceBetween: 0,
         effect: "fade",
