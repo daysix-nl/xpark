@@ -26,7 +26,7 @@ else: ?>
                <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px]"><?php echo get_field('hardware_intro');?></p>
                <div class="accordion-item mt-[20px] md:hidden lg:block"> 
                     <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-                        <span class="pr-4">Lees meer</span>
+                        <span class="pr-4 leesmeer"></span>
                     </button>
                     <div class="panel">
                         <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -38,7 +38,7 @@ else: ?>
          </div>
          <div class="accordion-item mt-[20px] hidden md:block lg:hidden"> 
             <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-               <span class="pr-4">Lees meer</span>
+               <span class="pr-4 leesmeer"></span>
             </button>
             <div class="panel">
                <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -60,7 +60,7 @@ else: ?>
                <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px]"><?php echo get_field('software_intro');?></p>
                <div class="accordion-item mt-[20px] md:hidden lg:block"> 
                     <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-                        <span class="pr-4">Lees meer</span>
+                        <span class="pr-4 leesmeer"></span>
                     </button>
                     <div class="panel">
                         <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -72,7 +72,7 @@ else: ?>
          </div>
          <div class="accordion-item mt-[20px] hidden md:block lg:hidden"> 
             <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-               <span class="pr-4">Lees meer</span>
+               <span class="pr-4 leesmeer"></span>
             </button>
             <div class="panel">
                <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -94,7 +94,7 @@ else: ?>
                <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px]"><?php echo get_field('parkeerapp_intro');?></p>
                <div class="accordion-item mt-[20px] md:hidden lg:block"> 
                     <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-                        <span class="pr-4">Lees meer</span>
+                        <span class="pr-4 leesmeer"></span>
                     </button>
                     <div class="panel">
                         <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -106,7 +106,7 @@ else: ?>
          </div>
          <div class="accordion-item mt-[20px] hidden md:block lg:hidden"> 
             <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-               <span class="pr-4">Lees meer</span>
+               <span class="pr-4 leesmeer"></span>
             </button>
             <div class="panel">
                <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -128,7 +128,7 @@ else: ?>
                <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px]"><?php echo get_field('rapportages_intro');?></p>
                <div class="accordion-item mt-[20px] md:hidden lg:block"> 
                     <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-                        <span class="pr-4">Lees meer</span>
+                        <span class="pr-4 leesmeer"></span>
                     </button>
                     <div class="panel">
                         <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -140,7 +140,7 @@ else: ?>
          </div>
          <div class="accordion-item mt-[20px] hidden md:block lg:hidden"> 
             <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-               <span class="pr-4">Lees meer</span>
+               <span class="pr-4 leesmeer"></span>
             </button>
             <div class="panel">
                <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -162,7 +162,7 @@ else: ?>
                <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 font-normal mt-[15px] lg:mt-[20px]"><?php echo get_field('koppelingen_intro');?></p>
                <div class="accordion-item mt-[20px] md:hidden lg:block"> 
                     <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-                        <span class="pr-4">Lees meer</span>
+                        <span class="pr-4 leesmeer"></span>
                     </button>
                     <div class="panel">
                         <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">
@@ -174,7 +174,7 @@ else: ?>
          </div>
          <div class="accordion-item mt-[20px] hidden md:block lg:hidden"> 
             <button class="accordion font-bold text-16 leading-26 lg:text-16 lg:leading-28 xl:text-18 xl:leading-28 pr-2 md:pr-3 lg:pr-4 py-2">
-               <span class="pr-4">Lees meer</span>
+               <span class="pr-4 leesmeer"></span>
             </button>
             <div class="panel">
                <div class="pb-3 pr-2 md:pb-4 md:pr-3 lg:pb-4  lg:pr-4">

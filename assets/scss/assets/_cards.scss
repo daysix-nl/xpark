@@ -70,6 +70,10 @@
 
         span {
             color: #FF6441 !important;
+
+            &:before {
+                content: "Lees meer";
+            }
         }
 
         &.active {
@@ -83,6 +87,10 @@
 
             span {
                 color: #B2B2B2 !important;
+
+                &:before {
+                    content: "Lees minder";
+                }
             }
 
 
