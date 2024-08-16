@@ -7,7 +7,7 @@ else: ?>
 <!-- HOE WERKT HET -->
 <section class="bg-white <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container hidden md:block">
-      <div class="w-fit md:h-[384.63px] lg:h-[533.5px] xl:h-[559.99px] mx-auto overflow-hidden">
+      <div class="w-fit md:h-[384.63px] lg:h-[533.5px] xl:h-[575.99px] mx-auto overflow-hidden ">
          <div class="md:scale-[0.685] lg:scale-95 xl:scale-100 origin-top-left">
             <?php include get_template_directory() . '/img/icon/hoe-werkt-het.php'; ?>
 
@@ -19,7 +19,7 @@ else: ?>
       <div id="software" class="container fade-item">
          <div class="md:flex md:justify-between md:items-start">
             <div class="w-[238px] lg:w-[303px] xl:w-[338px] h-fit mx-auto md:mx-[unset] order-1 md:order-1">
-               <img src="/wp-content/themes/xpark/img/local/software.png" alt="software">
+               <img src="/wp-content/themes/xpark/img/local/software-9.png" alt="software">
             </div>
             <div class="w-full md:w-[413px] lg:w-[724px] xl:w-[807px] order-2 md:order-2 mt-[10px] md:mt-[unset]">
                <h2 class="text-22 leading-32 md:text-23 md:leading-33 lg:text-23 lg:leading-33 xl:text-25 xl:leading-35 font-bold text-[#202624]">Software</h2>
@@ -121,7 +121,7 @@ else: ?>
       <div id="koppelingen" class="container fade-item">
          <div class="md:flex md:justify-between md:items-start">
              <div class="w-[238px] lg:w-[303px] xl:w-[338px] h-fit mx-auto md:mx-[unset] order-1 md:order-2">
-               <img src="/wp-content/themes/xpark/img/local/koppelingen.png" alt="koppelingen">
+               <img src="/wp-content/themes/xpark/img/local/koppelingen-9.png" alt="koppelingen">
             </div>
             <div class="w-full md:w-[413px] lg:w-[724px] xl:w-[807px] order-2 md:order-1 mt-[10px] md:mt-[unset]">
                <h2 class="text-22 leading-32 md:text-23 md:leading-33 lg:text-23 lg:leading-33 xl:text-25 xl:leading-35 font-bold text-[#202624]">Koppelingen</h2>
@@ -155,7 +155,7 @@ else: ?>
       <div id="parkeerapp" class="container fade-item">
          <div class="md:flex md:justify-between md:items-start">
             <div class="w-[238px] lg:w-[303px] xl:w-[338px] h-fit mx-auto md:mx-[unset] order-1 md:order-1">
-               <img src="/wp-content/themes/xpark/img/local/parkeerapp.png" alt="parkeerapp">
+               <img src="/wp-content/themes/xpark/img/local/parkeerapp-9.png" alt="parkeerapp">
             </div>
             <div class="w-full md:w-[413px] lg:w-[724px] xl:w-[807px] order-2 md:order-2 mt-[10px] md:mt-[unset]">
                <h2 class="text-22 leading-32 md:text-23 md:leading-33 lg:text-23 lg:leading-33 xl:text-25 xl:leading-35 font-bold text-[#202624]">Parkeerapp</h2>

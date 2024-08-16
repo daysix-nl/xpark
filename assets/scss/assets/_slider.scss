@@ -230,8 +230,30 @@ a#hoe_link:hover rect {
     transition-duration: .3s !important;
 }
 
-/* Basisstijl voor het element */
-.hover-effect {
+a#hoe_link .tegel {
+    transform: translateY(0px);
+    transition-duration: .3s !important;
+}
+
+a#hoe_link:hover .tegel {
+    transform: translateY(-8px);
+    transition-duration: .3s !important;
+}
+
+
+/* Beweging bij muishover */
+.een:hover {
+    // transform: translate(45px, -45px);
+    transition-duration: .3s !important;
+
+
+    #Path_868-4 {
+        transform: translateY(-20px);
+        transition-duration: .3s !important;
+    }
+}
+
+.een {
     #Path_868-4 {
 
         transition: transform 0.3s ease-in-out;
@@ -240,14 +262,90 @@ a#hoe_link:hover rect {
     }
 }
 
+#Group_1770 {
+    transform: translate(-204px, -667.59px) !important;
+}
+
 /* Beweging bij muishover */
-.hover-effect:hover {
+.twee:hover {
     // transform: translate(45px, -45px);
     transition-duration: .3s !important;
 
 
-    #Path_868-4 {
+    #Path_868-3 {
         transform: translateY(-20px);
         transition-duration: .3s !important;
+    }
+}
+
+.twee {
+    #Path_868-3 {
+
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-34.78px);
+    }
+}
+
+/* Beweging bij muishover */
+.drie:hover {
+    // transform: translate(45px, -45px);
+    transition-duration: .3s !important;
+
+
+    #Path_868-2 {
+        transform: translateY(-20px);
+        transition-duration: .3s !important;
+    }
+}
+
+.drie {
+    #Path_868-2 {
+
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-34.78px);
+    }
+}
+
+/* Beweging bij muishover */
+.vier:hover {
+    // transform: translate(45px, -45px);
+    transition-duration: .3s !important;
+
+
+    #Path_3728 {
+        transform: translateY(-20px);
+        transition-duration: .3s !important;
+    }
+}
+
+.vier {
+    #Path_3728 {
+
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-34.78px);
+    }
+}
+
+/* Beweging bij muishover */
+.vijf:hover {
+    // transform: translate(45px, -45px);
+    transition-duration: .3s !important;
+
+
+    #Path_868 {
+        transform: translateY(-20px);
+        transition-duration: .3s !important;
+    }
+}
+
+.vijf {
+    #Path_868 {
+
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-34.78px);
     }
 }
