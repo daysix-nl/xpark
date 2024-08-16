@@ -229,3 +229,25 @@ a#hoe_link:hover rect {
     fill: #FD7757 !important;
     transition-duration: .3s !important;
 }
+
+/* Basisstijl voor het element */
+.hover-effect {
+    #Path_868-4 {
+
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-34.78px);
+    }
+}
+
+/* Beweging bij muishover */
+.hover-effect:hover {
+    // transform: translate(45px, -45px);
+    transition-duration: .3s !important;
+
+
+    #Path_868-4 {
+        transform: translateY(-31px);
+        transition-duration: .3s !important;
+    }
+}
