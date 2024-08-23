@@ -15,10 +15,10 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container grid grid-cols-1 lg:grid-cols-2 mt-[30px] xl:mt-[50px] h-fit gap-y-[16px]">
       <div class="text-editor w-full lg:w-[474px] xl:w-[569px] h-fit">
-         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30"><?php echo get_field('tekst_1');?></div>
+         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 text-editor"><?php echo get_field('tekst_1');?></div>
       </div>
       <div class="text-editor w-full lg:w-[474px] xl:w-[569px] h-fit">
-         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30"><?php echo get_field('tekst_2');?></div>
+         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 text-editor"><?php echo get_field('tekst_2');?></div>
       </div>
    </div>
 </section>
@@ -28,7 +28,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container grid grid-cols-1 lg:grid-cols-2 mt-[30px] xl:mt-[50px] h-fit gap-y-[16px]">
       <div class="text-editor w-full lg:w-[1035px] xl:w-[1201px] h-fit">
-         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30"><?php echo get_field('tekst_1');?></div>
+         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 text-editor"><?php echo get_field('tekst_1');?></div>
       </div>
    </div>
 </section>
@@ -38,7 +38,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container grid grid-cols-1 lg:grid-cols-2 mt-[30px] xl:mt-[50px] h-fit gap-y-[16px]">
       <div class="text-editor w-full lg:w-[474px] xl:w-[569px] h-fit">
-         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30"><?php echo get_field('tekst_1');?></div>
+         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 text-editor"><?php echo get_field('tekst_1');?></div>
       </div>
       <div class="w-full lg:w-[474px] xl:w-[569px] h-fit">
          <div class="w-full h-[281px] md:h-[430px] lg:h-[350px] xl:h-[388px] rounded-[8px] overflow-hidden">
@@ -58,7 +58,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
          </div>
       </div>
       <div class="text-editor w-full lg:w-[474px] xl:w-[569px] h-fit order-1 lg:order-2">
-         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30"><?php echo get_field('tekst_1');?></div>
+         <div class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 text-editor"><?php echo get_field('tekst_1');?></div>
       </div>
    </div>
 </section>
