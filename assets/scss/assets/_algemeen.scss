@@ -120,6 +120,12 @@ main {
 
   }
 
+  &.inside {
+    ul {
+      list-style-position: inside;
+    }
+  }
+
   ol {
     list-style-type: decimal;
     list-style-position: outside;
