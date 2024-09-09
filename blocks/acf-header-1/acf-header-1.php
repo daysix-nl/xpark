@@ -16,7 +16,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 <?php
 $link2 = get_field('link_2');
-$link2url = isset($link2['url']) ? esc_url($link2['url']) : '';
+$link2_url = isset($link2['url']) ? esc_url($link2['url']) : '';
 $link2_text = isset($link2['title']) ? esc_html($link2['title']) : '';
 $link2_target = isset($link2['target']) ? esc_attr($link2['target']) : '';
 ?>

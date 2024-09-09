@@ -166,7 +166,15 @@
                 <a href="mailto:<?php echo get_field('e-mailadres', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('e-mailadres', 'option');?></a>
             </div>
             <div class="w-[100%] md:w-[33.33%] lg:w-[181px] lg:mr-[45px] h-auto grid items-between order-6 md:order-6 lg:order-5 mt-[25px] md:mt-[50px] lg:mt-[unset]">
-                <div class="w-[181px] grid grid-cols-4 mb-[20px]">
+                
+                <div class="lg:flex items-start hidden">
+                    <div class="">
+                        <h3 class="text-white font-bold text-17 leading-32 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17 mb-[16px]">Contact</h3>
+                         <a href="tel:<?php echo get_field('telefoonnummer', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('telefoonnummer', 'option');?></a>
+                        <a href="mailto:<?php echo get_field('e-mailadres', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('e-mailadres', 'option');?></a>
+                    </div>
+                </div>
+                <div class="w-[181px] grid grid-cols-4 lg:mt-[20px]">
                     <?php if (get_field('facebook', 'option')): ?>  
                     <a href="<?php echo get_field('facebook', 'option');?>" class="w-[36px]" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35">
@@ -217,13 +225,6 @@
                         </svg>
                     </a>
                     <?php endif; ?>
-                </div>
-                <div class="lg:flex items-end hidden">
-                    <div class="">
-                        <h3 class="text-white font-bold text-17 leading-32 lg:text-14 lg:leading-30 xl:text-17 xl:leading-32">Contact</h3>
-                         <a href="tel:<?php echo get_field('telefoonnummer', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('telefoonnummer', 'option');?></a>
-                        <a href="mailto:<?php echo get_field('e-mailadres', 'option');?>" class="text-white block text-15 leading-28 lg:text-14 lg:leading-30 xl:text-15 xl:leading-28 w-fit"><?php echo get_field('e-mailadres', 'option');?></a>
-                    </div>
                 </div>
             </div>
         </div>
