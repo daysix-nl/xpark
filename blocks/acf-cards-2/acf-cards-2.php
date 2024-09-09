@@ -6,7 +6,7 @@ else: ?>
 <!-- CARDS 2 -->
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="container lg:flex lg:justify-between">
-      <div class="w-full lg:w-[337px] xl:w-[375px]">
+      <div class="w-full lg:w-[360px] xl:w-[400px]">
          <h2 class="text-28 leading-35 md:text-40 md:leading-49 lg:text-36 lg:leading-50 xl:text-40 xl:leading-50 font-semibold"><?php echo get_field('titel');?></h2>
          <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 mt-[20px] md:mt-[25px] xl:mt-[35px]"><?php echo get_field('tekst');?></p>
       </div>

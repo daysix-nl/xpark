@@ -716,12 +716,9 @@ add_filter('gettext', 'custom_frontend_translations', 20, 3);
 
 
 
-// Maak een shortcode aan voor de [xxx] shortcode
-function custom_text_color_shortcode($atts, $content = null) {
-    // De kleur die je wilt toepassen
-    $color = '#FF6441';
 
-    // Retourneer de inhoud met inline CSS voor tekstkleur
+function custom_text_color_shortcode($atts, $content = null) {
+    $color = '#FF6441';
     return '<span style="color:' . esc_attr($color) . ';">.</span>';
 }
 add_shortcode('dot', 'custom_text_color_shortcode');
