@@ -51,6 +51,9 @@
 
 
 .swiper-free-mode>.swiper-wrapper {
-    transition-timing-function: unset !important;
+
+    transition-timing-function: linear !important;
+
+
     margin: 0 auto;
 }

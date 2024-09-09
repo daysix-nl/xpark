@@ -113,7 +113,7 @@ try {
         lazy: false,
         freeMode: true,
         loop: true,
-        speed: 20000,
+        speed: 5000,
 
         autoplay: {
             delay: 0,
@@ -122,15 +122,15 @@ try {
         slidesPerView: "auto",
         breakpoints: {
             640: {
-                speed: 30000,
+                speed: 5000,
                 spaceBetween: 34,
             },
             768: {
-                speed: 30000,
+                speed: 5000,
                 spaceBetween: 30,
             },
             1024: {
-                speed: 30000,
+                speed: 5000,
                 spaceBetween: 34,
             },
         },
