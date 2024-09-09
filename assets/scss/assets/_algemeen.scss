@@ -32,6 +32,11 @@ main {
 //   border: 1px solid red !important;
 // }
 
+.custom-dot {
+  /* Pas je stijl aan zoals je wilt */
+  color: #FF6441 !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   main {
