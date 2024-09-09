@@ -84,21 +84,53 @@ try {
     });
 } catch (error) { }
 
+// try {
+//     var swiper = new Swiper(".mySwiperKlanten", {
+//         slidesPerView: 'auto',
+//         spaceBetween: 12,
+//         breakpoints: {
+//             768: {
+//                 slidesPerView: 'auto',
+//                 spaceBetween: 34,
+//             },
+//             1200: {
+//                 slidesPerView: 'auto',
+//                 spaceBetween: 30,
+//             },
+//             1352: {
+//                 slidesPerView: 'auto',
+//                 spaceBetween: 34,
+//             },
+//         },
+//     });
+// } catch (error) { }
+
+
+
 try {
     var swiper = new Swiper(".mySwiperKlanten", {
-        slidesPerView: 'auto',
         spaceBetween: 12,
+        lazy: false,
+        freeMode: true,
+        loop: true,
+        speed: 20000,
+
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+        slidesPerView: "auto",
         breakpoints: {
-            768: {
-                slidesPerView: 'auto',
+            640: {
+                speed: 30000,
                 spaceBetween: 34,
             },
-            1200: {
-                slidesPerView: 'auto',
+            768: {
+                speed: 30000,
                 spaceBetween: 30,
             },
-            1352: {
-                slidesPerView: 'auto',
+            1024: {
+                speed: 30000,
                 spaceBetween: 34,
             },
         },

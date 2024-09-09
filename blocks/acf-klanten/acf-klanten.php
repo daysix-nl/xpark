@@ -15,7 +15,71 @@ else: ?>
             $image_url = isset($image['url']) ? esc_url($image['url']) : '';
             $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
             ?>
-                  <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
+               <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
+                  <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="img-klant">
+               </div>
+            <?php
+            endwhile;
+         else :
+         endif;
+         ?>
+         <?php
+         if( have_rows('klanten') ):
+            while( have_rows('klanten') ) : the_row(); ?>
+            <?php
+            $image = get_sub_field('afbeelding');
+            $image_url = isset($image['url']) ? esc_url($image['url']) : '';
+            $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
+            ?>
+               <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
+                  <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="img-klant">
+               </div>
+            <?php
+            endwhile;
+         else :
+         endif;
+         ?>
+         <?php
+         if( have_rows('klanten') ):
+            while( have_rows('klanten') ) : the_row(); ?>
+            <?php
+            $image = get_sub_field('afbeelding');
+            $image_url = isset($image['url']) ? esc_url($image['url']) : '';
+            $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
+            ?>
+               <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
+                  <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="img-klant">
+               </div>
+            <?php
+            endwhile;
+         else :
+         endif;
+         ?>
+         <?php
+         if( have_rows('klanten') ):
+            while( have_rows('klanten') ) : the_row(); ?>
+            <?php
+            $image = get_sub_field('afbeelding');
+            $image_url = isset($image['url']) ? esc_url($image['url']) : '';
+            $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
+            ?>
+               <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
+                  <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="img-klant">
+               </div>
+            <?php
+            endwhile;
+         else :
+         endif;
+         ?>
+         <?php
+         if( have_rows('klanten') ):
+            while( have_rows('klanten') ) : the_row(); ?>
+            <?php
+            $image = get_sub_field('afbeelding');
+            $image_url = isset($image['url']) ? esc_url($image['url']) : '';
+            $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
+            ?>
+               <div class="swiper-slide h-[91px] w-[160px] md:h-[117px] md:w-[206px] lg:h-[108px] lg:w-[191px] xl:h-[117px] xl:w-[206px] bg-white grow-item flex justify-center items-center">
                   <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="img-klant">
                </div>
             <?php
