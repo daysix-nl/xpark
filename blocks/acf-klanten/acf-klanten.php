@@ -6,7 +6,7 @@ else: ?>
  <!-- KLANTEN SLIDER -->
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('padding_top');?> <?php echo get_field('padding_bottom');?>">
    <div class="swiper mySwiperKlanten">
-      <div class="swiper-wrapper pl-[calc(50vw-181.5px)] md:pl-[calc(50vw-354px)] lg:pl-[calc(50vw-563px)] xl:pl-[calc(50vw-632px)]">
+      <div class="swiper-wrapper pl-[calc(50vw-181.5px)] md:pl-[calc(50vw-354px)] lg:pl-[calc(50vw-563px)] xl:pl-[calc(50vw-632px)] element-fade-in">
          <?php
          if( have_rows('klanten') ):
             while( have_rows('klanten') ) : the_row(); ?>
