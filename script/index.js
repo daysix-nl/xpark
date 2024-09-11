@@ -44,7 +44,7 @@ try {
 } catch (error) { }
 
 try {
-    let labelss = ["TMC", "Waysis", "Brickyard"];
+    let labelss = ["Waysis", "TMC", "Brickyard"];
     var swiper = new Swiper(".mySwiperContent", {
         spaceBetween: 30,
         effect: "fade",

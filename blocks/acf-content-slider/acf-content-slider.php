@@ -22,10 +22,10 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
             <div class="swiper mySwiperContent relative">
                <div class="swiper-wrapper w-[360px] md:w-[708px] lg:w-[531px] xl:w-[595px]">
                      <div class="swiper-slide h-auto bg-white w-full lg:w-[531px] xl:w-[595px]">
-                        <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 w-full lg:w-[531px] xl:w-[595px] mt-[35px] md:mt-[40px] lg:mt-[36px] xl:mt-[40px] pt-[30px]"><?php echo get_field('xpark_tekst');?></p>
+                        <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30  w-full lg:w-[531px] xl:w-[595px] mt-[35px] md:mt-[40px] lg:mt-[36px] xl:mt-[40px] pt-[30px]"><?php echo get_field('waysis_tekst');?></p>
                      </div>
                      <div class="swiper-slide h-auto bg-white w-full lg:w-[531px] xl:w-[595px]">
-                        <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30  w-full lg:w-[531px] xl:w-[595px] mt-[35px] md:mt-[40px] lg:mt-[36px] xl:mt-[40px] pt-[30px]"><?php echo get_field('waysis_tekst');?></p>
+                        <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 w-full lg:w-[531px] xl:w-[595px] mt-[35px] md:mt-[40px] lg:mt-[36px] xl:mt-[40px] pt-[30px]"><?php echo get_field('xpark_tekst');?></p>
                      </div>
                      <div class="swiper-slide h-auto bg-white w-full lg:w-[531px] xl:w-[595px]">
                         <p class="text-15 leading-28 md:text-17 md:leading-30 lg:text-15 lg:leading-28 xl:text-17 xl:leading-30 w-full lg:w-[531px] xl:w-[595px] mt-[35px] md:mt-[40px] lg:mt-[36px] xl:mt-[40px] pt-[30px]"><?php echo get_field('brickyard_tekst');?></p>
