@@ -21,12 +21,12 @@ $link2_text = isset($link2['title']) ? esc_html($link2['title']) : '';
 $link2_target = isset($link2['target']) ? esc_attr($link2['target']) : '';
 ?>
 <!-- HEADER 1 -->
-<section class="<?php echo get_field('achtergrond');?> relative pt-[120px] md:pt-[131px] lg:pt-[113px]">
+<section class="<?php echo get_field('achtergrond');?> relative pt-[90px] md:pt-[131px] lg:pt-[113px]">
    <div class="container flex flex-col lg:flex-row lg:items-center justify-between">
-      <div class="w-[325px] md:w-[654px] lg:w-[580px] xl:w-[655px] z-[3]">
+      <div class="w-[350px] md:w-[654px] lg:w-[580px] xl:w-[655px] z-[3]">
          <h1 class="font-bold text-[#000000] text-50 leading-60 md:text-60 md:leading-85 lg:text-53 lg:leading-75 xl:text-60 xl:leading-85"><?php echo get_field('titel');?><span class="text-[#FF6441]">.</span></h1>
          <h2 class="text-25 leading-35 md:text-35 md:leading-43 lg:text-31 lg:leading-42 xl:text-35 xl:leading-47 font-normal"><?php echo get_field('subtitel');?></h2>
-         <p class="text-15 leading-27 md:text-17 md:leading-30 lg:text-15 lg:leading-25 xl:text-17 xl:leading-30 font-normal mt-[10px] w-full max-w-[311px] md:max-w-[539px] lg:max-w-[460px] xl:max-w-[521px]"><?php echo get_field('tekst');?></p>
+         <p class="text-15 leading-27 md:text-17 md:leading-30 lg:text-15 lg:leading-25 xl:text-17 xl:leading-30 font-normal mt-[10px] w-full max-w-[350px] md:max-w-[539px] lg:max-w-[460px] xl:max-w-[521px]"><?php echo get_field('tekst');?></p>
          <div class="items-center hidden lg:flex space-x-[40px] xl:space-x-[45px] mt-[30px] lg:pb-[60px] xl:pb-[64px]">
             <a href="<?php echo $link_url; ?>" class="text-14 leading-20 xl:text-16 xl:leading-24 font-bold px-[18px] xl:px-[20px] h-[41px] xl:h-[44px] flex items-center rounded-[7px] bg-[#FF6441] text-white" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
             <?php if (get_field('link_2')): ?>   
