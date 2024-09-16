@@ -86,12 +86,13 @@
                     <path id="Path_684" data-name="Path 684" d="M19.882,0,7.619,14.181,19.858,28.361H12.239L0,14.181,12.239,0Z" transform="translate(1192.954 6548.581) rotate(180)" fill="#fff"/>
                 </g>
             </svg>
+            
         </div>
     </section>
     <section class="bg-[#64786E]">
         <div class="container flex flex-wrap justify-between py-[50px] lg:py-[50px] xl:py-[90px]">
             <div class="w-[100%] md:w-[33.33%] lg:w-[185px] order-5 md:order-4 lg:order-1 mt-[50px] lg:mt-[unset] logofooter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="140.714" height="27.489" viewBox="0 0 140.714 27.489">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="140.714" height="27.489" viewBox="0 0 140.714 27.489">
                     <g id="xpark-_fc_" data-name="xpark-[fc]" transform="translate(0 -0.499)">
                         <g id="Group_256" data-name="Group 256" transform="translate(132.547 0.499)">
                         <path id="Path_584" data-name="Path 584" d="M620.066,4.528a4.068,4.068,0,0,1-4.094,4.116A4.027,4.027,0,0,1,611.9,4.572,4.032,4.032,0,0,1,615.994.5,3.952,3.952,0,0,1,620.066,4.528Zm-.433,0a3.65,3.65,0,0,0-7.3.022,3.6,3.6,0,0,0,3.639,3.661A3.634,3.634,0,0,0,619.633,4.528Zm-2.643.693,1.083,1.668h-.628l-1-1.56a1.055,1.055,0,0,1-.26.022h-1.213V6.889h-.607V2.211h1.8c1.148,0,1.841.607,1.841,1.56A1.366,1.366,0,0,1,616.99,5.222Zm.455-1.451c0-.65-.477-1.04-1.3-1.04h-1.17v2.1h1.17C616.969,4.832,617.445,4.442,617.445,3.77Z" transform="translate(-611.9 -0.499)"/>
@@ -101,7 +102,8 @@
                         <path id="Path_586" data-name="Path 586" d="M12.715,17.287l-6-6.953H0L9.358,21.186Zm116.518-6.953h-6.715l-10.787,12.5,10.787,12.5h6.715l-10.787-12.5ZM71.007,24.695H59.569V21.121c0-4.246,2.253-6.282,5.719-6.282,3.423,0,5.719,2.036,5.719,6.282Zm20.275-.931H86.56V15.055h4.722c3.531,0,5.329,1.6,5.329,4.354C96.611,22.117,94.834,23.763,91.282,23.763Zm14.687-13.43V34.7h-3.488l-5.155-7.387a8.134,8.134,0,0,0,5.155-7.906c0-5.61-4.181-9.076-10.874-9.076H80.776V34.7H76.79V21.662c0-7.6-4.614-11.762-11.481-11.762S53.829,14.037,53.829,21.662V34.7H37.994v.65H59.569v-6H71.007v6H86.56V28.377h5.329l4.831,6.975h15.011V10.333ZM18.174,34.7H7.278l5.437-6.3L9.358,24.5,0,35.352H18.716Z" transform="translate(0 -9.9)"/>
                         </g>
                     </g>
-                </svg>
+                </svg> -->
+                <img src="/wp-content/themes/xpark/img/local/xpark-hvp.png" alt="" class="w-[153px]">
             </div>
             <div class="w-[50%] md:w-[33.33%] lg:w-[185px] order-1 lg:order-2">
                 <h3 class="text-white font-bold text-17 leading-17 lg:text-14 lg:leading-14 xl:text-17 xl:leading-17"><?php echo get_field('titel_kolom_1', 'option');?></h3>
