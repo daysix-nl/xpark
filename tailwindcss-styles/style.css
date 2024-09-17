@@ -637,14 +637,14 @@ video {
 .top-0 {
   top: 0;
 }
-.top-\[-18px\] {
-  top: -18px;
-}
 .top-\[-46px\] {
   top: -46px;
 }
 .top-\[0px\] {
   top: 0px;
+}
+.top-\[14px\] {
+  top: 14px;
 }
 .top-\[calc\(234\.5px-15px\)\] {
   top: calc(234.5px - 15px);

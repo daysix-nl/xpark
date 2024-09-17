@@ -42,7 +42,7 @@ $link2_target = isset($link2['target']) ? esc_attr($link2['target']) : '';
          <div class="h-[409px] md:h-[524px] lg:h-[425px] xl:h-[481px] relative flex items-end justify-end">
             <div class="w-[363px] h-[363px] md:w-[708px] md:h-[467px] lg:w-[465px] lg:h-[393px] xl:w-[522px] xl:h-[441px] rounded-[7px] lg:mr-[9px] xl:mr-[19px] overflow-hidden">
                <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center">
-               <div class="absolute top-[-18px] md:top-0 right-[-45px] md:right-[-70px] lg:right-[-25px] xl:right-[-19px]">
+               <div class="absolute top-[14px] md:top-0 right-[-45px] md:right-[-70px] lg:right-[-25px] xl:right-[-19px]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="199.394" height="159.614" viewBox="0 0 199.394 159.614">
                      <g id="Group_430" data-name="Group 430" transform="translate(-1178.606 -128.61)">
                         <path id="Path_598" data-name="Path 598" d="M111.9,0,42.878,79.807l68.881,79.807H68.881L0,79.807,68.881,0Z" transform="translate(1290.502 288.224) rotate(180)" fill="#fff"/>

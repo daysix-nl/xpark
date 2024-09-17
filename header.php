@@ -153,5 +153,10 @@
         else :
         endif;
         ?>
+        <div class="h-[75px] border-b-[1px] border-[#ddd] flex items-center">
+            <div class="px-[20px] flex justify-between">
+                    <a href="/contact" class="text-14 leading-24 text-[#202624] font-bold">Contact</a>
+            </div>
+        </div>
     </div>
  </div>
